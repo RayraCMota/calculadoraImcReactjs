@@ -1,0 +1,20 @@
+.descritivo{
+    display: flex;
+    justify-content: center;
+}
+
+.imgImc{
+    max-width: 40%;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px 0;
+    color: #991010;
+    font-weight: bold;
+}
+
+.texto{
+    padding: 10px 120px;
+    font-size: 20px;
+}
