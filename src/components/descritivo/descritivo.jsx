@@ -4,9 +4,6 @@ import styles from './Descritivo.module.css';
 const Descritivo = () => {
     return(
         <div>
-            <div className={styles.descritivo}>
-                <img className={styles.imgImc} src="https://lirp.cdn-website.com/451f53a3/dms3rep/multi/opt/tabela_IMC-1920w.png"/>
-            </div>
             <h2 className={styles.titulo} >O que é o IMC?</h2>
             <p className={styles.texto} >O Índice de Massa Corporal (IMC) é uma medida simples que relaciona o peso e a altura de uma pessoa. Ele é calculado dividindo o peso da pessoa em quilogramas pela altura ao quadrado em metros. A fórmula é a seguinte:</p>
             <p className={styles.texto}>IMC = Peso (kg) / (Altura (m) * Altura (m))</p> 

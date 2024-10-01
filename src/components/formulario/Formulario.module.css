@@ -1,12 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 95px;
+    padding: 80px 0;
+    background-color: rgb(37, 37, 37);
+    border-radius: 50px;
+}
+
 .form{
     display: flex;
     justify-content: center;
+    
 }
 
+.calculadora{
+    color: #dc8924;
+    text-align: center;
+    font-family: sans-serif;
+    border-color: #fff;
+}
+
+
+
 .input{
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 100px;
     margin: 35px 15px;
+    font-size: 40px;
+    border-radius: 20px;
 }
 
 .resultado{
@@ -14,4 +35,9 @@
     font-size: 20px;
     font-family: sans-serif;
     padding: 30px 0;
+    color: #fff;
+}
+
+.imgImc{
+    max-width: 30%;
 }
